@@ -1,0 +1,12 @@
+.Wrong{
+    background-color:rgb(255, 183, 154);
+    font-size: 20px;
+    padding: 10px;
+    color: darkred;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.NoneWrong{
+    visibility: hidden;
+}

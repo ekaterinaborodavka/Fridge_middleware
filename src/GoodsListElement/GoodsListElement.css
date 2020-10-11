@@ -1,0 +1,54 @@
+.GoodsListElement {
+    border-bottom: 0.5px solid black;
+    margin: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.GoodsListElement_Column {
+    text-align: left;
+    width: 7%;
+}
+
+.GoodsListElement_Column select {
+    width: 90%;
+    margin-left: 0;
+}
+
+.GoodsListElement_ColumnDescription{
+    width: 15%;
+}
+
+.GoodsListElement_Button{
+    width: 12%;
+}
+
+.GoodsListElement_Button button{
+    width: 35%;
+    margin: 0 5px;
+}
+
+.GoodsListElement_Checkbox{
+    width: 2%;
+}
+
+.GoodsListElement_Button_Edit{
+    background-color:rgb(226, 228, 137);
+    border: 1px solid yellow;
+    border-radius: 5px;
+}
+
+.GoodsListElement_Button_Save{
+    background-color:lightgreen;
+    border: 1px solid green;
+    border-radius: 5px;
+}
+
+.GoodsListElement_Button_Delete{
+    background-color:lightsalmon;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.GoodsListElement_Button_Delete:hover, .GoodsListElement_Button_Edit:hover{
+    background-color:lightgrey;
+}
